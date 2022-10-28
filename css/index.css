@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a, a:visited {
+  text-decoration-line: none;
+  color: hsla(9, 44%, 28%, 1);
+}
+
+.home-page {
+  background-color: hsla(41, 94%, 93%, 1);
+  background-image: url('../img/background.png');
+  display: flex;
+  justify-content: center;
+}
+
+.introduction {
+  color: hsla(9, 44%, 28%, 1);
+  margin-right: 114.42px;
+  margin-top: 25vh;
+  font-family: 'Poppins', sans-serif;
+}
+
+.big-size-title {
+  font-weight: 900;
+  font-size: 115px;
+  line-height: 136.27px;
+}
+
+.small-size-title {
+  font-weight: 700;
+  font-size: 58px;
+  line-height: 58.29px;
+  letter-spacing: 25px;
+  margin-bottom: 30px;
+}
+
+.introduction p {
+  font-weight: 600;
+}
+
+.homebuttons {
+  display: flex;
+  margin-top: 30px;
+}
+
+.help-me-button {
+  font-weight: 700;
+  font-size: 18px;
+  background: hsla(45, 86%, 66%, 1);
+  padding: 21px 68px 21px 68px;
+  border-radius: 58px;
+}
+
+.about-us-button {
+  margin: 21px 68px 21px 68px;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.bearbearslogo {
+  height: 536.98px;
+  width: 544.97px;
+  margin-top: 15vh;
+}
+
+.services-page {
+  background-color: hsla(11, 43%, 34%, 1);
+  font-family: 'Poppins', sans-serif;
+}
+
+.services-title {
+  display: flex;
+  justify-content: center;
+}
+
+.services-title h1 {
+  color: hsla(0, 0%, 100%, 1);
+  font-weight: 900;
+  font-size: 64px;
+}
+
+.services-image {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.services-button {
+  display: flex;
+  justify-content: center;
+}
+
+.testymonials-page {
+  background-color: hsla(41, 94%, 93%, 1);
+  background-image: url('../img/background.png');
+  font-family: 'Poppins', sans-serif;
+}
+
+.testymonials-title {
+  display: flex;
+  justify-content: center;
+}
+
+.testymonials-title h1 {
+  color: #7C4032;
+  font-weight: 900;
+  font-size: 64px;
+}
